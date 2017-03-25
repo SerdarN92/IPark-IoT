@@ -1,0 +1,24 @@
+# Wichtig, damit in extram definierte Variablen nicht mit in der HEX-Datei landen.
+HEX_FLASH_FLAGS += -R .extram -R .bootld
+
+size: ${TARGET}
+	@echo
+	@avr-size -C --mcu=${MCU} ${TARGET}
+
+### Automatic BUILD NUMBER:
+# We define an extra symbol (__BUILD_NUMBER):
+LDFLAGS += -Wl,--defsym -Wl,__BUILD_NUMBER=$$(cat ../default/buildNumber.txt)
+
+# Target also depends on Build Number (used to be $(TARGET): ... which makes language firmwares have different build numbers)
+size: increaseBuildNumber
+
+# Build number file.  Increment if any object file changes.
+increaseBuildNumber: $(OBJECTS)
+	@if ! test -f buildNumber.txt; then echo 0 > buildNumber.txt; fi
+	@echo $$(($$(cat buildNumber.txt) + 1)) > buildNumber.txt
+##
+
+## Add size to to build command:
+all: size
+
+	

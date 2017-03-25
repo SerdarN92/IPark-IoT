@@ -1,0 +1,120 @@
+\hypertarget{struct_u_a_r_t___i_n_f_o__t}{}\section{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t Struct Reference}
+\label{struct_u_a_r_t___i_n_f_o__t}\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+
+
+Structure to keep U\+A\+RT information.  
+
+
+
+
+{\ttfamily \#include $<$uart.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+U\+S\+A\+R\+T\+\_\+t $\ast$ \hyperlink{struct_u_a_r_t___i_n_f_o__t_a5a819ee5e46999aaae5cb6813014ec08}{usart}
+\item 
+\hyperlink{struct_r_b___b_u_f_f_e_r__t}{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t} $\ast$ \hyperlink{struct_u_a_r_t___i_n_f_o__t_aadf2552691eaf2d23f0d07e0cad646ff}{output\+Buffer}
+\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_a78ac89a4a0f57ffa7c2ecf31749aa390}{flags}
+\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_a41daacfc4d2f0d91bc315d3adc48947a}{state\+Send}
+\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_a566746cda46477e331cb6795463b4b60}{state\+Receive}
+\item 
+\mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_ad9d3ec3189e3093c0178aa7dc2f3376c}\label{struct_u_a_r_t___i_n_f_o__t_ad9d3ec3189e3093c0178aa7dc2f3376c}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_ad6027466dc4a46cc9f3880798b753658}{readAhead}\\
+\>unsigned char {\bfseries doCancelEcho}\\
+\}; \\
+
+\end{tabbing}\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_a7d2133c9c461227274fff3898eeef8fe}{exclusive}
+\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_af246eac5e612eff35894d6b1149941bc}{exclusive\+Count}
+\item 
+unsigned long int \hyperlink{struct_u_a_r_t___i_n_f_o__t_ad4270971ab5b6eb9c5582ff484c2ef7e}{last\+Echo\+Byte\+Time}
+\item 
+unsigned char \hyperlink{struct_u_a_r_t___i_n_f_o__t_a000a89447ba13237676e025f69a838ab}{notify\+Count}
+\item 
+\hyperlink{struct_u_a_r_t___notify_info__t}{U\+A\+R\+T\+\_\+\+Notify\+Info\+\_\+t} \hyperlink{struct_u_a_r_t___i_n_f_o__t_af41896ccaef0b7db8f67f01f8552b4bd}{notify\+Info} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure to keep U\+A\+RT information. 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a7d2133c9c461227274fff3898eeef8fe}\label{struct_u_a_r_t___i_n_f_o__t_a7d2133c9c461227274fff3898eeef8fe}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!exclusive@{exclusive}}
+\index{exclusive@{exclusive}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{exclusive}{exclusive}}
+{\footnotesize\ttfamily unsigned char exclusive}
+
+Who has exclusive access to the U\+A\+RT \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_af246eac5e612eff35894d6b1149941bc}\label{struct_u_a_r_t___i_n_f_o__t_af246eac5e612eff35894d6b1149941bc}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!exclusive\+Count@{exclusive\+Count}}
+\index{exclusive\+Count@{exclusive\+Count}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{exclusive\+Count}{exclusiveCount}}
+{\footnotesize\ttfamily unsigned char exclusive\+Count}
+
+How many times has somebody got access to the U\+A\+RT (recursive calls) \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a78ac89a4a0f57ffa7c2ecf31749aa390}\label{struct_u_a_r_t___i_n_f_o__t_a78ac89a4a0f57ffa7c2ecf31749aa390}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!flags@{flags}}
+\index{flags@{flags}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{flags}{flags}}
+{\footnotesize\ttfamily unsigned char flags}
+
+Flags \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_ad4270971ab5b6eb9c5582ff484c2ef7e}\label{struct_u_a_r_t___i_n_f_o__t_ad4270971ab5b6eb9c5582ff484c2ef7e}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!last\+Echo\+Byte\+Time@{last\+Echo\+Byte\+Time}}
+\index{last\+Echo\+Byte\+Time@{last\+Echo\+Byte\+Time}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{last\+Echo\+Byte\+Time}{lastEchoByteTime}}
+{\footnotesize\ttfamily unsigned long int last\+Echo\+Byte\+Time}
+
+Last byte that has been sent \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a000a89447ba13237676e025f69a838ab}\label{struct_u_a_r_t___i_n_f_o__t_a000a89447ba13237676e025f69a838ab}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!notify\+Count@{notify\+Count}}
+\index{notify\+Count@{notify\+Count}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{notify\+Count}{notifyCount}}
+{\footnotesize\ttfamily unsigned char notify\+Count}
+
+Number of functions to notify \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_af41896ccaef0b7db8f67f01f8552b4bd}\label{struct_u_a_r_t___i_n_f_o__t_af41896ccaef0b7db8f67f01f8552b4bd}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!notify\+Info@{notify\+Info}}
+\index{notify\+Info@{notify\+Info}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{notify\+Info}{notifyInfo}}
+{\footnotesize\ttfamily \hyperlink{struct_u_a_r_t___notify_info__t}{U\+A\+R\+T\+\_\+\+Notify\+Info\+\_\+t} notify\+Info\mbox{[}$\,$\mbox{]}}
+
+Notify information \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_aadf2552691eaf2d23f0d07e0cad646ff}\label{struct_u_a_r_t___i_n_f_o__t_aadf2552691eaf2d23f0d07e0cad646ff}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!output\+Buffer@{output\+Buffer}}
+\index{output\+Buffer@{output\+Buffer}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{output\+Buffer}{outputBuffer}}
+{\footnotesize\ttfamily \hyperlink{struct_r_b___b_u_f_f_e_r__t}{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}$\ast$ output\+Buffer}
+
+Ring buffer to keep characters to be sent \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_ad6027466dc4a46cc9f3880798b753658}\label{struct_u_a_r_t___i_n_f_o__t_ad6027466dc4a46cc9f3880798b753658}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!read\+Ahead@{read\+Ahead}}
+\index{read\+Ahead@{read\+Ahead}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{read\+Ahead}{readAhead}}
+{\footnotesize\ttfamily unsigned char read\+Ahead}
+
+$<$ \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a566746cda46477e331cb6795463b4b60}\label{struct_u_a_r_t___i_n_f_o__t_a566746cda46477e331cb6795463b4b60}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!state\+Receive@{state\+Receive}}
+\index{state\+Receive@{state\+Receive}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{state\+Receive}{stateReceive}}
+{\footnotesize\ttfamily unsigned char state\+Receive}
+
+Receive state of U\+A\+RT \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a41daacfc4d2f0d91bc315d3adc48947a}\label{struct_u_a_r_t___i_n_f_o__t_a41daacfc4d2f0d91bc315d3adc48947a}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!state\+Send@{state\+Send}}
+\index{state\+Send@{state\+Send}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{state\+Send}{stateSend}}
+{\footnotesize\ttfamily unsigned char state\+Send}
+
+Send state of U\+A\+RT \mbox{\Hypertarget{struct_u_a_r_t___i_n_f_o__t_a5a819ee5e46999aaae5cb6813014ec08}\label{struct_u_a_r_t___i_n_f_o__t_a5a819ee5e46999aaae5cb6813014ec08}} 
+\index{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}!usart@{usart}}
+\index{usart@{usart}!U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t@{U\+A\+R\+T\+\_\+\+I\+N\+F\+O\+\_\+t}}
+\subsubsection{\texorpdfstring{usart}{usart}}
+{\footnotesize\ttfamily U\+S\+A\+R\+T\+\_\+t$\ast$ usart}
+
+Hardware U\+S\+A\+RT 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/uart.\+h\end{DoxyCompactItemize}

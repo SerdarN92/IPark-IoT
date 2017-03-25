@@ -1,0 +1,72 @@
+\hypertarget{struct_r_b___b_u_f_f_e_r__t}{}\section{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t Struct Reference}
+\label{struct_r_b___b_u_f_f_e_r__t}\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+
+
+Internal structure to manage the ring buffer.  
+
+
+
+
+{\ttfamily \#include $<$ring\+Buffer.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{struct_r_b___b_u_f_f_e_r__t_adfe0cf8a3027c978673610daf637f2fe}{read\+Position}
+\item 
+unsigned int \hyperlink{struct_r_b___b_u_f_f_e_r__t_a102e260ea62241f6600bcd8ca328f120}{write\+Position}
+\item 
+unsigned int \hyperlink{struct_r_b___b_u_f_f_e_r__t_aac913b3a1f6ef005d66bf7a84428773e}{size}
+\item 
+unsigned int \hyperlink{struct_r_b___b_u_f_f_e_r__t_ab30b7ceceef441edd501b3fdec0e63d7}{max\+Size}
+\item 
+unsigned char $\ast$ \hyperlink{struct_r_b___b_u_f_f_e_r__t_a70e7ad2e1a45c8db5fba9ad4778bd400}{buffer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal structure to manage the ring buffer. 
+
+\hyperlink{ring_buffer_8h_source}{ring\+Buffer.\+h}
+
+\begin{DoxyAuthor}{Author}
+thagemeier 
+\end{DoxyAuthor}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct_r_b___b_u_f_f_e_r__t_a70e7ad2e1a45c8db5fba9ad4778bd400}\label{struct_r_b___b_u_f_f_e_r__t_a70e7ad2e1a45c8db5fba9ad4778bd400}} 
+\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}!buffer@{buffer}}
+\index{buffer@{buffer}!R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+\subsubsection{\texorpdfstring{buffer}{buffer}}
+{\footnotesize\ttfamily unsigned char$\ast$ buffer}
+
+Pointer to buffer \mbox{\Hypertarget{struct_r_b___b_u_f_f_e_r__t_ab30b7ceceef441edd501b3fdec0e63d7}\label{struct_r_b___b_u_f_f_e_r__t_ab30b7ceceef441edd501b3fdec0e63d7}} 
+\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}!max\+Size@{max\+Size}}
+\index{max\+Size@{max\+Size}!R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+\subsubsection{\texorpdfstring{max\+Size}{maxSize}}
+{\footnotesize\ttfamily unsigned int max\+Size}
+
+Size of buffer \mbox{\Hypertarget{struct_r_b___b_u_f_f_e_r__t_adfe0cf8a3027c978673610daf637f2fe}\label{struct_r_b___b_u_f_f_e_r__t_adfe0cf8a3027c978673610daf637f2fe}} 
+\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}!read\+Position@{read\+Position}}
+\index{read\+Position@{read\+Position}!R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+\subsubsection{\texorpdfstring{read\+Position}{readPosition}}
+{\footnotesize\ttfamily unsigned int read\+Position}
+
+Reading position of ring buffer \mbox{\Hypertarget{struct_r_b___b_u_f_f_e_r__t_aac913b3a1f6ef005d66bf7a84428773e}\label{struct_r_b___b_u_f_f_e_r__t_aac913b3a1f6ef005d66bf7a84428773e}} 
+\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}!size@{size}}
+\index{size@{size}!R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily unsigned int size}
+
+Fill level of ring buffer \mbox{\Hypertarget{struct_r_b___b_u_f_f_e_r__t_a102e260ea62241f6600bcd8ca328f120}\label{struct_r_b___b_u_f_f_e_r__t_a102e260ea62241f6600bcd8ca328f120}} 
+\index{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}!write\+Position@{write\+Position}}
+\index{write\+Position@{write\+Position}!R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t@{R\+B\+\_\+\+B\+U\+F\+F\+E\+R\+\_\+t}}
+\subsubsection{\texorpdfstring{write\+Position}{writePosition}}
+{\footnotesize\ttfamily unsigned int write\+Position}
+
+Writing position of ring buffer 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/ring\+Buffer.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,61 @@
+\hypertarget{structtmr__callback}{}\section{tmr\+\_\+callback Struct Reference}
+\label{structtmr__callback}\index{tmr\+\_\+callback@{tmr\+\_\+callback}}
+
+
+Structure to manage timed callbacks.  
+
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{structtmr__callback_a3dd2bf8b269e3fa033cdf888d425c0a1}{wait\+Time}
+\item 
+unsigned int \hyperlink{structtmr__callback_ab5e3bcb44e429e65c5e0a9eacd064049}{restart\+With}
+\item 
+Void\+\_\+\+Function\+\_\+\+VoidP \hyperlink{structtmr__callback_ae3b4038c83a340e7843217ac6dda627d}{callback}
+\item 
+unsigned char $\ast$ \hyperlink{structtmr__callback_a142fadbc946a29365d91cb1ca55f1d26}{callback\+\_\+ptr}
+\item 
+unsigned char \hyperlink{structtmr__callback_a45a2bb46f70a64688f7c9ada4b28a0cb}{is\+Active}\+:1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure to manage timed callbacks. 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{structtmr__callback_ae3b4038c83a340e7843217ac6dda627d}\label{structtmr__callback_ae3b4038c83a340e7843217ac6dda627d}} 
+\index{tmr\+\_\+callback@{tmr\+\_\+callback}!callback@{callback}}
+\index{callback@{callback}!tmr\+\_\+callback@{tmr\+\_\+callback}}
+\subsubsection{\texorpdfstring{callback}{callback}}
+{\footnotesize\ttfamily Void\+\_\+\+Function\+\_\+\+VoidP callback}
+
+Function to call as callback \mbox{\Hypertarget{structtmr__callback_a142fadbc946a29365d91cb1ca55f1d26}\label{structtmr__callback_a142fadbc946a29365d91cb1ca55f1d26}} 
+\index{tmr\+\_\+callback@{tmr\+\_\+callback}!callback\+\_\+ptr@{callback\+\_\+ptr}}
+\index{callback\+\_\+ptr@{callback\+\_\+ptr}!tmr\+\_\+callback@{tmr\+\_\+callback}}
+\subsubsection{\texorpdfstring{callback\+\_\+ptr}{callback\_ptr}}
+{\footnotesize\ttfamily unsigned char$\ast$ callback\+\_\+ptr}
+
+Pointer is passed to callback \mbox{\Hypertarget{structtmr__callback_a45a2bb46f70a64688f7c9ada4b28a0cb}\label{structtmr__callback_a45a2bb46f70a64688f7c9ada4b28a0cb}} 
+\index{tmr\+\_\+callback@{tmr\+\_\+callback}!is\+Active@{is\+Active}}
+\index{is\+Active@{is\+Active}!tmr\+\_\+callback@{tmr\+\_\+callback}}
+\subsubsection{\texorpdfstring{is\+Active}{isActive}}
+{\footnotesize\ttfamily unsigned char is\+Active}
+
+Is callback currently active (recursive call)? \mbox{\Hypertarget{structtmr__callback_ab5e3bcb44e429e65c5e0a9eacd064049}\label{structtmr__callback_ab5e3bcb44e429e65c5e0a9eacd064049}} 
+\index{tmr\+\_\+callback@{tmr\+\_\+callback}!restart\+With@{restart\+With}}
+\index{restart\+With@{restart\+With}!tmr\+\_\+callback@{tmr\+\_\+callback}}
+\subsubsection{\texorpdfstring{restart\+With}{restartWith}}
+{\footnotesize\ttfamily unsigned int restart\+With}
+
+Restart with this time \mbox{\Hypertarget{structtmr__callback_a3dd2bf8b269e3fa033cdf888d425c0a1}\label{structtmr__callback_a3dd2bf8b269e3fa033cdf888d425c0a1}} 
+\index{tmr\+\_\+callback@{tmr\+\_\+callback}!wait\+Time@{wait\+Time}}
+\index{wait\+Time@{wait\+Time}!tmr\+\_\+callback@{tmr\+\_\+callback}}
+\subsubsection{\texorpdfstring{wait\+Time}{waitTime}}
+{\footnotesize\ttfamily unsigned int wait\+Time}
+
+Time until callback is due 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/systimer.\+c\end{DoxyCompactItemize}

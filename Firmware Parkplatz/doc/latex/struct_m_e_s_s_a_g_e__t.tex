@@ -1,0 +1,92 @@
+\hypertarget{struct_m_e_s_s_a_g_e__t}{}\section{M\+E\+S\+S\+A\+G\+E\+\_\+t Struct Reference}
+\label{struct_m_e_s_s_a_g_e__t}\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+
+
+{\ttfamily \#include $<$communication.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned long int \hyperlink{struct_m_e_s_s_a_g_e__t_ac0e1cd3d93fc5a11ce7244a2d1823de2}{msg\+Dest}
+\item 
+unsigned long int \hyperlink{struct_m_e_s_s_a_g_e__t_a0fb10476a72a5a49fb537b51f91f28ee}{msg\+Src}
+\item 
+unsigned short int \hyperlink{struct_m_e_s_s_a_g_e__t_acf1bfdd1179c0d68cbfec3e5de623d70}{src\+Port}
+\item 
+unsigned short int \hyperlink{struct_m_e_s_s_a_g_e__t_a0e0462f3fde5eb310fe9d776dcef1d11}{dst\+Port}
+\item 
+unsigned char \hyperlink{struct_m_e_s_s_a_g_e__t_a78ac89a4a0f57ffa7c2ecf31749aa390}{flags}
+\item 
+unsigned char $\ast$ \hyperlink{struct_m_e_s_s_a_g_e__t_aae61c305bc218172c4fa25766255f5d8}{sequence}
+\item 
+unsigned char \hyperlink{struct_m_e_s_s_a_g_e__t_a5d41e832808c416e15e96b521c4ebfdf}{sub\+Protocol}
+\item 
+unsigned char $\ast$ \hyperlink{struct_m_e_s_s_a_g_e__t_a8cff7748b5b3118a34d99936238e78d8}{content}
+\item 
+unsigned short int \hyperlink{struct_m_e_s_s_a_g_e__t_a749ec55e4f272d503fc5fd0460c24fde}{len}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Layer 3-\/4 Internal message structure 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a8cff7748b5b3118a34d99936238e78d8}\label{struct_m_e_s_s_a_g_e__t_a8cff7748b5b3118a34d99936238e78d8}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!content@{content}}
+\index{content@{content}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{content}{content}}
+{\footnotesize\ttfamily unsigned char$\ast$ content}
+
+Pointer to message content \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a0e0462f3fde5eb310fe9d776dcef1d11}\label{struct_m_e_s_s_a_g_e__t_a0e0462f3fde5eb310fe9d776dcef1d11}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!dst\+Port@{dst\+Port}}
+\index{dst\+Port@{dst\+Port}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{dst\+Port}{dstPort}}
+{\footnotesize\ttfamily unsigned short int dst\+Port}
+
+Message source port \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a78ac89a4a0f57ffa7c2ecf31749aa390}\label{struct_m_e_s_s_a_g_e__t_a78ac89a4a0f57ffa7c2ecf31749aa390}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!flags@{flags}}
+\index{flags@{flags}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{flags}{flags}}
+{\footnotesize\ttfamily unsigned char flags}
+
+Message flags \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a749ec55e4f272d503fc5fd0460c24fde}\label{struct_m_e_s_s_a_g_e__t_a749ec55e4f272d503fc5fd0460c24fde}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!len@{len}}
+\index{len@{len}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{len}{len}}
+{\footnotesize\ttfamily unsigned short int len}
+
+Message payload/content \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_ac0e1cd3d93fc5a11ce7244a2d1823de2}\label{struct_m_e_s_s_a_g_e__t_ac0e1cd3d93fc5a11ce7244a2d1823de2}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!msg\+Dest@{msg\+Dest}}
+\index{msg\+Dest@{msg\+Dest}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{msg\+Dest}{msgDest}}
+{\footnotesize\ttfamily unsigned long int msg\+Dest}
+
+Message destination address \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a0fb10476a72a5a49fb537b51f91f28ee}\label{struct_m_e_s_s_a_g_e__t_a0fb10476a72a5a49fb537b51f91f28ee}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!msg\+Src@{msg\+Src}}
+\index{msg\+Src@{msg\+Src}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{msg\+Src}{msgSrc}}
+{\footnotesize\ttfamily unsigned long int msg\+Src}
+
+Message source address \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_aae61c305bc218172c4fa25766255f5d8}\label{struct_m_e_s_s_a_g_e__t_aae61c305bc218172c4fa25766255f5d8}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!sequence@{sequence}}
+\index{sequence@{sequence}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{sequence}{sequence}}
+{\footnotesize\ttfamily unsigned char$\ast$ sequence}
+
+Message sequence for encryption \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_acf1bfdd1179c0d68cbfec3e5de623d70}\label{struct_m_e_s_s_a_g_e__t_acf1bfdd1179c0d68cbfec3e5de623d70}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!src\+Port@{src\+Port}}
+\index{src\+Port@{src\+Port}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{src\+Port}{srcPort}}
+{\footnotesize\ttfamily unsigned short int src\+Port}
+
+Message destination port \mbox{\Hypertarget{struct_m_e_s_s_a_g_e__t_a5d41e832808c416e15e96b521c4ebfdf}\label{struct_m_e_s_s_a_g_e__t_a5d41e832808c416e15e96b521c4ebfdf}} 
+\index{M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}!sub\+Protocol@{sub\+Protocol}}
+\index{sub\+Protocol@{sub\+Protocol}!M\+E\+S\+S\+A\+G\+E\+\_\+t@{M\+E\+S\+S\+A\+G\+E\+\_\+t}}
+\subsubsection{\texorpdfstring{sub\+Protocol}{subProtocol}}
+{\footnotesize\ttfamily unsigned char sub\+Protocol}
+
+Subprotocol of layer 5 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/communication.\+h\end{DoxyCompactItemize}

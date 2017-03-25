@@ -1,0 +1,25 @@
+Licht an:
+	f3 00 16 01 01 01 01 12 34 56 78 01 00 40 03 7d 34 b5 6c 69 67 68 74 ff 31 86 80
+Licht aus:
+	f3 00 16 01 01 01 01 12 34 56 78 01 00 40 03 7d 34 b5 6c 69 67 68 74 ff 30 dc 7b
+Licht abfragen:
+	f3 00 14 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 b5 6c 69 67 68 74 61 9a
+Sequenznummer lesen:
+	f3 00 17 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 b8 73 65 71 75 65 6e 63 65 59 a8
+Clock lesen:
+	f3 00 14 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 b5 63 6c 6f 63 6b a4 0a
+Resource enumeration:
+	f3 00 1F 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 bb 2e 77 65 6c 6c 2d 6b 6e 6f 77 6e 04 63 6f 72 65 c9 f3
+Anfragen ob Parkplatz verfügbar:
+	f3 00 18 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 b9 61 76 61 69 6c 61 62 6c 65 05 57
+Welche ID parkt:
+	f3 00 18 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 b9 70 61 72 6b 69 6e 67 49 44 75 4a
+Parkplatz für ID 13 freigeben:
+	f3 00 1d 01 01 01 01 12 34 56 78 01 00 40 03 7d 34 bb 72 65 73 65 72 76 61 74 69 6f 6e ff 31 33 17 74
+Parkdaten abfragen:
+	f3 00 1b 01 01 01 01 12 34 56 78 01 00 40 01 7d 34 bc 70 61 72 6b 69 6e 67 5f 64 61 74 61 64 cb
+
+
+Ausgabe der Resourcen:
+
+</.well-known/core>;ct=40,</light>;ct=0,</barrier>;ct=0,</car-detect>;ct=0

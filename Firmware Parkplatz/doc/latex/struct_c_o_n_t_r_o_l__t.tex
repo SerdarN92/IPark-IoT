@@ -1,0 +1,101 @@
+\hypertarget{struct_c_o_n_t_r_o_l__t}{}\section{C\+O\+N\+T\+R\+O\+L\+\_\+t Struct Reference}
+\label{struct_c_o_n_t_r_o_l__t}\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+
+
+Structure to save all information regarding parking events.  
+
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_abe8b8c6a40ddd15be8972fa85474f58b}{car\+Parked} \mbox{[}N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+S\+E\+N\+S\+O\+RS\mbox{]}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_ab12828525693568ae9c217805bea1ef9}{state}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_a0b696a7bbf04038baa95fad73cb13e42}{barrier\+Engaged}
+\item 
+unsigned short int \hyperlink{struct_c_o_n_t_r_o_l__t_aa24a24930cf2d359abdb887ad090dc1a}{delay}
+\item 
+unsigned short int \hyperlink{struct_c_o_n_t_r_o_l__t_a99cb743fd6ed4db98a5220c2a27c4341}{counter}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_aeb475cff437db460df4f0a7fda472aac}{wanted\+State}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_a92465825e621fe2c54b86f0a350ea163}{barrier\+Is\+Moving}
+\item 
+unsigned char \hyperlink{struct_c_o_n_t_r_o_l__t_adca9fd17f330eff575ac6c4bca9aac98}{ready\+To\+Unlock}
+\item 
+unsigned long int \hyperlink{struct_c_o_n_t_r_o_l__t_a56fc156d2b30953b714e34a76a049912}{unlock\+For\+ID}
+\item 
+unsigned short int \hyperlink{struct_c_o_n_t_r_o_l__t_a8132ad4bfa188798ef3a47d971342fec}{detect\+Distance}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Structure to save all information regarding parking events. 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_a0b696a7bbf04038baa95fad73cb13e42}\label{struct_c_o_n_t_r_o_l__t_a0b696a7bbf04038baa95fad73cb13e42}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!barrier\+Engaged@{barrier\+Engaged}}
+\index{barrier\+Engaged@{barrier\+Engaged}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{barrier\+Engaged}{barrierEngaged}}
+{\footnotesize\ttfamily unsigned char barrier\+Engaged}
+
+Is the barrier currently engaged? \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_a92465825e621fe2c54b86f0a350ea163}\label{struct_c_o_n_t_r_o_l__t_a92465825e621fe2c54b86f0a350ea163}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!barrier\+Is\+Moving@{barrier\+Is\+Moving}}
+\index{barrier\+Is\+Moving@{barrier\+Is\+Moving}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{barrier\+Is\+Moving}{barrierIsMoving}}
+{\footnotesize\ttfamily unsigned char barrier\+Is\+Moving}
+
+Is the barrier moving right now? \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_abe8b8c6a40ddd15be8972fa85474f58b}\label{struct_c_o_n_t_r_o_l__t_abe8b8c6a40ddd15be8972fa85474f58b}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!car\+Parked@{car\+Parked}}
+\index{car\+Parked@{car\+Parked}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{car\+Parked}{carParked}}
+{\footnotesize\ttfamily unsigned char car\+Parked\mbox{[}N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+S\+E\+N\+S\+O\+RS\mbox{]}}
+
+What the sensor says about a parked car \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_a99cb743fd6ed4db98a5220c2a27c4341}\label{struct_c_o_n_t_r_o_l__t_a99cb743fd6ed4db98a5220c2a27c4341}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!counter@{counter}}
+\index{counter@{counter}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily unsigned short int counter}
+
+Parking counter \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_aa24a24930cf2d359abdb887ad090dc1a}\label{struct_c_o_n_t_r_o_l__t_aa24a24930cf2d359abdb887ad090dc1a}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!delay@{delay}}
+\index{delay@{delay}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{delay}{delay}}
+{\footnotesize\ttfamily unsigned short int delay}
+
+Delay counter for state machine \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_a8132ad4bfa188798ef3a47d971342fec}\label{struct_c_o_n_t_r_o_l__t_a8132ad4bfa188798ef3a47d971342fec}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!detect\+Distance@{detect\+Distance}}
+\index{detect\+Distance@{detect\+Distance}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{detect\+Distance}{detectDistance}}
+{\footnotesize\ttfamily unsigned short int detect\+Distance}
+
+Detection distance \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_adca9fd17f330eff575ac6c4bca9aac98}\label{struct_c_o_n_t_r_o_l__t_adca9fd17f330eff575ac6c4bca9aac98}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!ready\+To\+Unlock@{ready\+To\+Unlock}}
+\index{ready\+To\+Unlock@{ready\+To\+Unlock}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{ready\+To\+Unlock}{readyToUnlock}}
+{\footnotesize\ttfamily unsigned char ready\+To\+Unlock}
+
+Is the parking space ready to be unlocked \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_ab12828525693568ae9c217805bea1ef9}\label{struct_c_o_n_t_r_o_l__t_ab12828525693568ae9c217805bea1ef9}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!state@{state}}
+\index{state@{state}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily unsigned char state}
+
+Internal state for state machine \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_a56fc156d2b30953b714e34a76a049912}\label{struct_c_o_n_t_r_o_l__t_a56fc156d2b30953b714e34a76a049912}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!unlock\+For\+ID@{unlock\+For\+ID}}
+\index{unlock\+For\+ID@{unlock\+For\+ID}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{unlock\+For\+ID}{unlockForID}}
+{\footnotesize\ttfamily unsigned long int unlock\+For\+ID}
+
+Unlock for what ID \mbox{\Hypertarget{struct_c_o_n_t_r_o_l__t_aeb475cff437db460df4f0a7fda472aac}\label{struct_c_o_n_t_r_o_l__t_aeb475cff437db460df4f0a7fda472aac}} 
+\index{C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}!wanted\+State@{wanted\+State}}
+\index{wanted\+State@{wanted\+State}!C\+O\+N\+T\+R\+O\+L\+\_\+t@{C\+O\+N\+T\+R\+O\+L\+\_\+t}}
+\subsubsection{\texorpdfstring{wanted\+State}{wantedState}}
+{\footnotesize\ttfamily unsigned char wanted\+State}
+
+Wanted state 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/control.\+c\end{DoxyCompactItemize}

@@ -1,0 +1,1128 @@
+Archive member included because of file (symbol)
+
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_mulsi3.o)
+                              common.o (__mulsi3)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodhi4.o)
+                              uart.o (__udivmodhi4)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodsi4.o)
+                              systimer.o (__udivmodsi4)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o (exit)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcmp.o)
+                              coap.o (memcmp)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcpy.o)
+                              coap.o (memcpy)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strncat.o)
+                              coap_endpoints.o (strncat)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o)
+                              coap_endpoints.o (snprintf)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf.o)
+                              console.o (vsnprintf)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf_p.o)
+                              console.o (vsnprintf_P)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o) (vfprintf)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen_P.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o) (strnlen_P)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o) (strnlen)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(fputc.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o) (fputc)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(ultoa_invert.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+settings            0x22              settings.o
+PIN_IDs             0x1               main.o
+ctrl                0x10              control.o
+hwDef               0x6               hardware.o
+uartPC              0x2               uart_mgmt.o
+globals             0x2               globals.o
+inBuffer            0x2               communication.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00021e00         xr
+bootload         0x00021e00         0x00000200         xr
+data             0x00802000         0x00002000         rw !x
+extram           0x00804000         0x0000c000         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x582a
+ *(.vectors)
+ .vectors       0x00000000      0x1f4 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000001f4       0x35 hardware.o
+ .progmem.data  0x00000229       0x13 coap_endpoints.o
+ .progmem.data  0x0000023c        0xa distance.o
+ .progmem.data  0x00000246       0xe5 control.o
+ .progmem.data  0x0000032b       0x26 accounting.o
+                0x00000352                . = ALIGN (0x2)
+ *fill*         0x00000351        0x1 00
+                0x00000352                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000352        0x0 linker stubs
+ *(.trampolines*)
+                0x00000352                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000352                __ctors_start = .
+ *(.ctors)
+                0x00000352                __ctors_end = .
+                0x00000352                __dtors_start = .
+ *(.dtors)
+                0x00000352                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000352        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+                0x00000352                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000352       0x18 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000036a       0x1c d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+                0x0000036a                __do_copy_data
+ .init4         0x00000386       0x10 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+                0x00000386                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000396        0x8 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+ *(.init9)
+ *(.text)
+ .text          0x0000039e        0x4 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+                0x0000039e                __vector_38
+                0x0000039e                __vector_104
+                0x0000039e                __vector_22
+                0x0000039e                __vector_63
+                0x0000039e                __vector_28
+                0x0000039e                __vector_67
+                0x0000039e                __vector_1
+                0x0000039e                __vector_119
+                0x0000039e                __vector_75
+                0x0000039e                __vector_71
+                0x0000039e                __vector_91
+                0x0000039e                __vector_34
+                0x0000039e                __vector_62
+                0x0000039e                __vector_102
+                0x0000039e                __vector_24
+                0x0000039e                __vector_12
+                0x0000039e                __vector_55
+                0x0000039e                __vector_69
+                0x0000039e                __vector_81
+                0x0000039e                __vector_90
+                0x0000039e                __vector_46
+                0x0000039e                __bad_interrupt
+                0x0000039e                __vector_122
+                0x0000039e                __vector_72
+                0x0000039e                __vector_114
+                0x0000039e                __vector_6
+                0x0000039e                __vector_110
+                0x0000039e                __vector_31
+                0x0000039e                __vector_92
+                0x0000039e                __vector_35
+                0x0000039e                __vector_78
+                0x0000039e                __vector_74
+                0x0000039e                __vector_117
+                0x0000039e                __vector_39
+                0x0000039e                __vector_107
+                0x0000039e                __vector_3
+                0x0000039e                __vector_105
+                0x0000039e                __vector_98
+                0x0000039e                __vector_23
+                0x0000039e                __vector_68
+                0x0000039e                __vector_30
+                0x0000039e                __vector_73
+                0x0000039e                __vector_45
+                0x0000039e                __vector_93
+                0x0000039e                __vector_61
+                0x0000039e                __vector_11
+                0x0000039e                __vector_54
+                0x0000039e                __vector_99
+                0x0000039e                __vector_13
+                0x0000039e                __vector_17
+                0x0000039e                __vector_19
+                0x0000039e                __vector_56
+                0x0000039e                __vector_7
+                0x0000039e                __vector_49
+                0x0000039e                __vector_123
+                0x0000039e                __vector_41
+                0x0000039e                __vector_86
+                0x0000039e                __vector_100
+                0x0000039e                __vector_101
+                0x0000039e                __vector_64
+                0x0000039e                __vector_88
+                0x0000039e                __vector_109
+                0x0000039e                __vector_43
+                0x0000039e                __vector_5
+                0x0000039e                __vector_113
+                0x0000039e                __vector_33
+                0x0000039e                __vector_76
+                0x0000039e                __vector_115
+                0x0000039e                __vector_47
+                0x0000039e                __vector_52
+                0x0000039e                __vector_37
+                0x0000039e                __vector_95
+                0x0000039e                __vector_103
+                0x0000039e                __vector_96
+                0x0000039e                __vector_89
+                0x0000039e                __vector_108
+                0x0000039e                __vector_4
+                0x0000039e                __vector_44
+                0x0000039e                __vector_82
+                0x0000039e                __vector_106
+                0x0000039e                __vector_118
+                0x0000039e                __vector_51
+                0x0000039e                __vector_9
+                0x0000039e                __vector_2
+                0x0000039e                __vector_21
+                0x0000039e                __vector_15
+                0x0000039e                __vector_66
+                0x0000039e                __vector_36
+                0x0000039e                __vector_79
+                0x0000039e                __vector_58
+                0x0000039e                __vector_70
+                0x0000039e                __vector_83
+                0x0000039e                __vector_29
+                0x0000039e                __vector_60
+                0x0000039e                __vector_121
+                0x0000039e                __vector_40
+                0x0000039e                __vector_94
+                0x0000039e                __vector_8
+                0x0000039e                __vector_48
+                0x0000039e                __vector_124
+                0x0000039e                __vector_116
+                0x0000039e                __vector_112
+                0x0000039e                __vector_111
+                0x0000039e                __vector_80
+                0x0000039e                __vector_14
+                0x0000039e                __vector_84
+                0x0000039e                __vector_57
+                0x0000039e                __vector_53
+                0x0000039e                __vector_50
+                0x0000039e                __vector_16
+                0x0000039e                __vector_59
+                0x0000039e                __vector_18
+                0x0000039e                __vector_97
+                0x0000039e                __vector_20
+                0x0000039e                __vector_42
+                0x0000039e                __vector_87
+                0x0000039e                __vector_65
+                0x0000039e                __vector_120
+ .text          0x000003a2       0x8c main.o
+                0x000003a2                timer_test
+                0x000003aa                start_hardware
+                0x00000412                main
+ .text          0x0000042e       0x70 system_clock.o
+                0x0000042e                selectClockSource
+ .text          0x0000049e      0x1c2 common.o
+                0x00000598                do_wait
+                0x00000538                atoi_long
+                0x000004ee                reverseByteOrder
+                0x000005ea                wait
+                0x0000049e                busy_wait
+                0x000005d2                start_wait
+ .text          0x00000660      0x5c2 systimer.o
+                0x00000a7a                timer_delCallback
+                0x00000b70                systimer_getTimestamp
+                0x0000068c                __vector_77
+                0x000009cc                timer_getCallbackCount
+                0x00000684                getRetAddr
+                0x00000660                systimer_init
+                0x000009d2                timer_addCallback
+                0x00000aea                systimer_startStopwatch
+                0x0000067e                systimer_isTimerRunning
+                0x00000c04                timer_getMicrosecondsFromPreciseTimestamp
+                0x000007ea                check_timers
+                0x000007d8                systimer_getUptime
+                0x00000b16                systimer_getStopwatch
+                0x00000b98                timer_getPreciseTimestamp
+                0x00000bd0                timer_getPreciseTimestamp_async
+                0x00000b4e                systimer_getTimestamp_async
+ .text          0x00000c22       0xe8 sdram.o
+                0x00000c24                sdram_init
+                0x00000c22                sdram_testPeriodic
+ .text          0x00000d0a      0x19c memtransfer.o
+                0x00000d98                memoryTransferNoDMA
+                0x00000e42                memoryZero
+                0x00000e5c                memoryZeroLong
+                0x00000dc4                memoryTransferLong
+                0x00000d6c                memoryTransfer
+                0x00000d0a                memoryTransferDMA
+ .text          0x00000ea6      0x5a6 hardware.o
+                0x000010da                hw_setInvert
+                0x00000f48                hw_setOn
+                0x0000109c                hw_setOPC
+                0x00001166                hw_isPinAvailable
+                0x00001058                hw_setInput
+                0x00000ea6                hw_resolvePinData
+                0x00000f08                hw_getPinData
+                0x00001014                hw_setOutput
+                0x00001120                hw_setLimitSlewRate
+                0x0000127c                hw_init
+                0x00000fd0                hw_isOn
+                0x00001178                hw_getHardwareVersion
+                0x000011f8                hw_switchHardwareDefinitions
+                0x00000f8c                hw_setOff
+ .text          0x0000144c      0x290 ringBuffer.o
+                0x000016d0                rb_getCount_sync
+                0x00001478                rb_peek
+                0x000016aa                rb_get_sync
+                0x000015ac                rb_getCount
+                0x000015b4                rb_peek_sync
+                0x0000163a                rb_put_sync
+                0x00001562                rb_get
+                0x000014f4                rb_put
+                0x0000144c                rb_createBuffer
+                0x000015ee                rb_delete_sync
+                0x000014ac                rb_delete
+ .text          0x000016dc      0x76a uart.o
+                0x00001dac                uart_createUART
+                0x000018bc                uart_getExclusiveAccess
+                0x000018fa                uart_hasExclusiveAccess
+                0x0000190a                uart_changeSpeed
+                0x000016dc                uart_addModifyNotifyFunction
+                0x00001a98                uart_puts
+                0x00001948                uart_disableHardware
+                0x00001a48                uart_puts_P
+                0x00001b08                uart_performEchoTest
+                0x00001c5c                uart_txCompleteInterrupt
+                0x00001ae2                uart_putc
+                0x00001c9c                uart_receivedInterrupt
+                0x00001978                uart_getTransmissionDelayMs
+                0x00001808                uart_forwardNotify
+                0x00001b94                uart_outputValue
+                0x00001c34                uart_putc_async
+                0x000019c4                uart_enableHardware
+                0x00001968                uart_isBusy
+                0x000018e0                uart_releaseExclusiveAccess
+                0x00001d38                uart_dataEmptyInterrupt
+ .text          0x00001e46      0x1b4 uart_mgmt.o
+                0x00001e46                __vector_25
+                0x00001f3e                __vector_27
+                0x00001fba                uartmgmt_setupUARTs
+                0x00001ec2                __vector_26
+ .text          0x00001ffa      0x70c communication.o
+                0x000026ee                com_uartEvent
+                0x000022b4                com_protocolMessage
+                0x000026a8                com_init
+                0x000022c4                com_messageReceived
+                0x000024d4                com_checkMessageBuffer
+                0x00002012                com_sendProtocolMessage
+                0x00001ffa                increaseSequenceNumber
+ .text          0x00002706       0x2a crc.o
+                0x00002706                crc_calcCRC16r
+ .text          0x00002730        0x0 globals.o
+ .text          0x00002730       0xf6 aes.o
+                0x00002730                aes_encryptDecryptData
+ .text          0x00002826      0x9ae coap.o
+                0x00002b98                coap_findOptions
+                0x00002a2e                coap_parseOptionsAndPayload
+                0x0000288c                coap_parseToken
+                0x00002d6e                coap_handle_req
+                0x00002bf6                coap_option_nibble
+                0x00002c16                coap_make_response
+                0x00002cf0                coap_make_reset
+                0x00002b3c                coap_parse
+                0x00002826                coap_parseHeader
+                0x00002d42                coap_hasUnknownCriticalOptions
+                0x00002f06                coap_build
+                0x000028d0                coap_parseOption
+ .text          0x000031d4      0x98a coap_endpoints.o
+                0x000038ee                ce_processIncomingMessage
+                0x00003a42                build_rsp
+                0x00003b58                ep_setup
+ .text          0x00003b5e      0x2fe eeprom.o
+                0x00003d60                __vector_32
+                0x00003e56                ee_saveData
+                0x00003df6                ee_saveDataEx
+                0x00003dd2                ee_loadData
+                0x00003b5e                ee_init
+                0x00003cf4                ee_asyncWriteEx
+                0x00003d56                ee_asyncWrite
+                0x00003b86                eew_feed
+                0x00003b6a                ee_isBusy
+ .text          0x00003e5c      0x2d6 settings.o
+                0x00003f0a                set_checkSettingChecksum
+                0x000040ae                set_init
+                0x00003e5c                set_writeSettingChecksum
+                0x00003eba                set_saveSettings
+ .text          0x00004132       0xdc console.o
+                0x00004132                uart_printf_P
+                0x000041a0                uart_printf
+ .text          0x0000420e       0x5e servo.o
+                0x0000420e                servo_init
+                0x00004222                servo_setServoPosition
+ .text          0x0000426c      0x12e rtc.o
+                0x0000426c                rtc_init
+                0x00004286                rtc_getUnixtime
+                0x0000429e                rtc_setUnixtime
+                0x000042fa                __vector_10
+ .text          0x0000439a      0x212 distance.o
+                0x000044dc                dist_init
+                0x000043fe                dist_getLastDistance
+                0x00004406                dist_work
+                0x0000439a                __vector_85
+ .text          0x000045ac      0x554 control.o
+                0x00004742                control_work
+                0x00004636                ctrl_unlockBarrierFor
+                0x00004ada                control_init
+                0x000045b2                ctrl_isCarParked
+                0x0000465a                ctrl_sensorValue
+                0x0000460a                ctrl_isSpaceAvailable
+                0x000045f2                ctrl_engageBarrier
+                0x000045d2                ctrl_isNoCarParked
+                0x000046f2                control_workBarrier
+                0x000045ac                ctrl_isBarrierEngaged
+                0x000045fe                ctrl_disengageBarrier
+ .text          0x00004b00       0xf8 light.o
+                0x00004be4                light_init
+                0x00004b22                light_work
+                0x00004b00                light_setMode
+ .text          0x00004bf8      0x4c4 accounting.o
+                0x00004bfe                accounting_getParkingID
+                0x00004cbc                accounting_exportParkingHistoryJSON
+                0x00005070                accounting_startParking
+                0x00004efa                accounting_logParkTime
+                0x00005002                accounting_stopParking
+                0x00004c26                accounting_setNewClock
+                0x00004bf8                accounting_isCounting
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_mulsi3.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodsi4.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcmp.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcpy.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strncat.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf_p.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen_P.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(fputc.o)
+ .text          0x000050bc        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(ultoa_invert.o)
+                0x000050bc                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000050bc       0x3e d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_mulsi3.o)
+                0x000050bc                __mulsi3
+ .text.libgcc   0x000050fa       0x28 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodhi4.o)
+                0x000050fa                __udivmodhi4
+ .text.libgcc   0x00005122       0x44 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodsi4.o)
+                0x00005122                __udivmodsi4
+ .text.libgcc   0x00005166        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+ .text.libgcc   0x00005166        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00005166       0x1a d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcmp.o)
+                0x00005166                memcmp
+ .text.avr-libc
+                0x00005180       0x12 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcpy.o)
+                0x00005180                memcpy
+ .text.avr-libc
+                0x00005192       0x20 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strncat.o)
+                0x00005192                strncat
+ .text.avr-libc
+                0x000051b2       0x70 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o)
+                0x000051b2                snprintf
+ .text.avr-libc
+                0x00005222       0x62 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf.o)
+                0x00005222                vsnprintf
+ .text.avr-libc
+                0x00005284       0x62 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf_p.o)
+                0x00005284                vsnprintf_P
+ .text.avr-libc
+                0x000052e6      0x400 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o)
+                0x000052e6                vfprintf
+ .text.avr-libc
+                0x000056e6       0x16 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen_P.o)
+                0x000056e6                strnlen_P
+ .text.avr-libc
+                0x000056fc       0x16 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen.o)
+                0x000056fc                strnlen
+ .text.avr-libc
+                0x00005712       0x58 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(fputc.o)
+                0x00005712                fputc
+ .text.avr-libc
+                0x0000576a       0xbc d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(ultoa_invert.o)
+                0x0000576a                __ultoa_invert
+                0x00005826                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00005826        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+                0x00005826                exit
+                0x00005826                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00005826        0x4 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000582a                _etext = .
+
+.data           0x00802000      0x820 load address 0x0000582a
+                0x00802000                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00802000        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+ .data          0x00802000        0x0 main.o
+ .data          0x00802000        0x0 system_clock.o
+ .data          0x00802000        0x0 common.o
+ .data          0x00802000        0x0 systimer.o
+ .data          0x00802000        0x0 sdram.o
+ .data          0x00802000        0x0 memtransfer.o
+ .data          0x00802000        0x0 hardware.o
+ .data          0x00802000        0x0 ringBuffer.o
+ .data          0x00802000        0x0 uart.o
+ .data          0x00802000        0x0 uart_mgmt.o
+ .data          0x00802000        0x7 communication.o
+ .data          0x00802007        0x0 crc.o
+ .data          0x00802007        0x0 globals.o
+ .data          0x00802007        0x0 aes.o
+ .data          0x00802007        0x0 coap.o
+ .data          0x00802007      0x712 coap_endpoints.o
+                0x00802031                rsplen
+                0x00802044                endpoints
+ .data          0x00802719        0x0 eeprom.o
+ .data          0x00802719        0x0 settings.o
+ .data          0x00802719        0x0 console.o
+ .data          0x00802719        0x0 servo.o
+ .data          0x00802719        0x0 rtc.o
+ .data          0x00802719        0x0 distance.o
+ .data          0x00802719        0x0 control.o
+ .data          0x00802719        0x0 light.o
+ .data          0x00802719      0x106 accounting.o
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_mulsi3.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodsi4.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcmp.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcpy.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strncat.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf_p.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen_P.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(fputc.o)
+ .data          0x0080281f        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(ultoa_invert.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00802820                . = ALIGN (0x2)
+ *fill*         0x0080281f        0x1 00
+                0x00802820                _edata = .
+                0x00802820                PROVIDE (__data_end, .)
+
+.bootld
+ *(.bootloader)
+ *(.bootldr)
+ *(.BOOT)
+
+.bss            0x00802820      0x224
+                0x00802820                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00802820        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7/crtx128a1.o
+ .bss           0x00802820        0x0 main.o
+ .bss           0x00802820        0x0 system_clock.o
+ .bss           0x00802820        0x2 common.o
+                0x00802820                toWait
+ .bss           0x00802822       0xf6 systimer.o
+ .bss           0x00802918        0x0 sdram.o
+ .bss           0x00802918        0x0 memtransfer.o
+ .bss           0x00802918        0x0 hardware.o
+ .bss           0x00802918        0x0 ringBuffer.o
+ .bss           0x00802918        0x2 uart.o
+ .bss           0x0080291a        0x0 uart_mgmt.o
+ .bss           0x0080291a        0x2 communication.o
+ .bss           0x0080291c        0x0 crc.o
+ .bss           0x0080291c        0x0 globals.o
+ .bss           0x0080291c        0x0 aes.o
+ .bss           0x0080291c        0x0 coap.o
+ .bss           0x0080291c        0x0 coap_endpoints.o
+ .bss           0x0080291c       0x10 eeprom.o
+ .bss           0x0080292c        0x0 settings.o
+ .bss           0x0080292c        0x0 console.o
+ .bss           0x0080292c        0x0 servo.o
+ .bss           0x0080292c        0x4 rtc.o
+ .bss           0x00802930        0x6 distance.o
+ .bss           0x00802936        0x3 control.o
+ .bss           0x00802939        0x2 light.o
+ .bss           0x0080293b       0xca accounting.o
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_mulsi3.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodhi4.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_udivmodsi4.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_exit.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a(_clear_bss.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcmp.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(memcpy.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strncat.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(snprintf.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vsnprintf_p.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(vfprintf_std.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen_P.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(strnlen.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(fputc.o)
+ .bss           0x00802a05        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a(ultoa_invert.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00802a05        0x1 main.o
+                0x00802a05                PIN_IDs
+ COMMON         0x00802a06        0x6 hardware.o
+                0x00802a06                hwDef
+ COMMON         0x00802a0c        0x2 uart_mgmt.o
+                0x00802a0c                uartPC
+ COMMON         0x00802a0e        0x2 communication.o
+                0x00802a0e                inBuffer
+ COMMON         0x00802a10        0x2 globals.o
+                0x00802a10                globals
+ COMMON         0x00802a12       0x22 settings.o
+                0x00802a12                settings
+ COMMON         0x00802a34       0x10 control.o
+                0x00802a34                ctrl
+                0x00802a44                PROVIDE (__bss_end, .)
+                0x0000582a                __data_load_start = LOADADDR (.data)
+                0x0000604a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00802a44        0x0
+                0x00802a44                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00802a44                PROVIDE (__noinit_end, .)
+                0x00802a44                _end = .
+                0x00802a44                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.extram         0x00804000     0x304e
+                0x00804000                PROVIDE (__extram_start, .)
+ *(.extram*)
+ .extram        0x00804000       0x80 sdram.o
+ .extram        0x00804080      0x7fe uart_mgmt.o
+ .extram        0x0080487e      0x7d0 communication.o
+ .extram        0x0080504e     0x2000 coap_endpoints.o
+                0x0080704e                PROVIDE (__extram_end, .)
+                0x00804000                __extram_load_start = LOADADDR (.extram)
+                0x0080704e                __extram_load_end = (__extram_load_start + SIZEOF (.extram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x300
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 system_clock.o
+ .debug_aranges
+                0x00000040       0x20 common.o
+ .debug_aranges
+                0x00000060       0x20 systimer.o
+ .debug_aranges
+                0x00000080       0x20 sdram.o
+ .debug_aranges
+                0x000000a0       0x20 memtransfer.o
+ .debug_aranges
+                0x000000c0       0x20 hardware.o
+ .debug_aranges
+                0x000000e0       0x20 ringBuffer.o
+ .debug_aranges
+                0x00000100       0x20 uart.o
+ .debug_aranges
+                0x00000120       0x20 uart_mgmt.o
+ .debug_aranges
+                0x00000140       0x20 communication.o
+ .debug_aranges
+                0x00000160       0x20 crc.o
+ .debug_aranges
+                0x00000180       0x20 aes.o
+ .debug_aranges
+                0x000001a0       0x20 coap.o
+ .debug_aranges
+                0x000001c0       0x20 coap_endpoints.o
+ .debug_aranges
+                0x000001e0       0x20 eeprom.o
+ .debug_aranges
+                0x00000200       0x20 settings.o
+ .debug_aranges
+                0x00000220       0x20 console.o
+ .debug_aranges
+                0x00000240       0x20 servo.o
+ .debug_aranges
+                0x00000260       0x20 rtc.o
+ .debug_aranges
+                0x00000280       0x20 distance.o
+ .debug_aranges
+                0x000002a0       0x20 control.o
+ .debug_aranges
+                0x000002c0       0x20 light.o
+ .debug_aranges
+                0x000002e0       0x20 accounting.o
+
+.debug_pubnames
+                0x00000000      0xf71
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x49 main.o
+ .debug_pubnames
+                0x00000049       0x34 system_clock.o
+ .debug_pubnames
+                0x0000007d       0x72 common.o
+ .debug_pubnames
+                0x000000ef      0x1ba systimer.o
+ .debug_pubnames
+                0x000002a9       0x44 sdram.o
+ .debug_pubnames
+                0x000002ed       0x8c memtransfer.o
+ .debug_pubnames
+                0x00000379      0x12c hardware.o
+ .debug_pubnames
+                0x000004a5       0xbf ringBuffer.o
+ .debug_pubnames
+                0x00000564      0x1fa uart.o
+ .debug_pubnames
+                0x0000075e       0x71 uart_mgmt.o
+ .debug_pubnames
+                0x000007cf       0xcc communication.o
+ .debug_pubnames
+                0x0000089b       0x25 crc.o
+ .debug_pubnames
+                0x000008c0       0x1e globals.o
+ .debug_pubnames
+                0x000008de       0x39 aes.o
+ .debug_pubnames
+                0x00000917      0x128 coap.o
+ .debug_pubnames
+                0x00000a3f       0x70 coap_endpoints.o
+ .debug_pubnames
+                0x00000aaf       0xad eeprom.o
+ .debug_pubnames
+                0x00000b5c       0x87 settings.o
+ .debug_pubnames
+                0x00000be3       0x40 console.o
+ .debug_pubnames
+                0x00000c23       0x3c servo.o
+ .debug_pubnames
+                0x00000c5f       0x63 rtc.o
+ .debug_pubnames
+                0x00000cc2       0x63 distance.o
+ .debug_pubnames
+                0x00000d25      0x121 control.o
+ .debug_pubnames
+                0x00000e46       0x4e light.o
+ .debug_pubnames
+                0x00000e94       0xdd accounting.o
+
+.debug_info     0x00000000     0xae11
+ *(.debug_info)
+ .debug_info    0x00000000      0xa9b main.o
+ .debug_info    0x00000a9b      0x343 system_clock.o
+ .debug_info    0x00000dde      0x492 common.o
+ .debug_info    0x00001270      0xc9f systimer.o
+ .debug_info    0x00001f0f      0x867 sdram.o
+ .debug_info    0x00002776      0x5fd memtransfer.o
+ .debug_info    0x00002d73      0x95b hardware.o
+ .debug_info    0x000036ce      0x390 ringBuffer.o
+ .debug_info    0x00003a5e      0xd86 uart.o
+ .debug_info    0x000047e4      0x4e6 uart_mgmt.o
+ .debug_info    0x00004cca      0x873 communication.o
+ .debug_info    0x0000553d       0x7b crc.o
+ .debug_info    0x000055b8       0x6f globals.o
+ .debug_info    0x00005627      0x338 aes.o
+ .debug_info    0x0000595f      0xbcf coap.o
+ .debug_info    0x0000652e     0x10e5 coap_endpoints.o
+ .debug_info    0x00007613      0x65a eeprom.o
+ .debug_info    0x00007c6d      0x46b settings.o
+ .debug_info    0x000080d8      0x49f console.o
+ .debug_info    0x00008577      0x77e servo.o
+ .debug_info    0x00008cf5      0x477 rtc.o
+ .debug_info    0x0000916c      0xb66 distance.o
+ .debug_info    0x00009cd2      0xc3d control.o
+ .debug_info    0x0000a90f      0x247 light.o
+ .debug_info    0x0000ab56      0x2bb accounting.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x282d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1a1 main.o
+ .debug_abbrev  0x000001a1       0xd2 system_clock.o
+ .debug_abbrev  0x00000273      0x1ca common.o
+ .debug_abbrev  0x0000043d      0x32a systimer.o
+ .debug_abbrev  0x00000767      0x197 sdram.o
+ .debug_abbrev  0x000008fe      0x193 memtransfer.o
+ .debug_abbrev  0x00000a91      0x200 hardware.o
+ .debug_abbrev  0x00000c91      0x168 ringBuffer.o
+ .debug_abbrev  0x00000df9      0x318 uart.o
+ .debug_abbrev  0x00001111      0x16c uart_mgmt.o
+ .debug_abbrev  0x0000127d      0x253 communication.o
+ .debug_abbrev  0x000014d0       0x65 crc.o
+ .debug_abbrev  0x00001535       0x59 globals.o
+ .debug_abbrev  0x0000158e      0x134 aes.o
+ .debug_abbrev  0x000016c2      0x232 coap.o
+ .debug_abbrev  0x000018f4      0x236 coap_endpoints.o
+ .debug_abbrev  0x00001b2a      0x188 eeprom.o
+ .debug_abbrev  0x00001cb2      0x13c settings.o
+ .debug_abbrev  0x00001dee      0x178 console.o
+ .debug_abbrev  0x00001f66      0x11b servo.o
+ .debug_abbrev  0x00002081      0x18f rtc.o
+ .debug_abbrev  0x00002210      0x19b distance.o
+ .debug_abbrev  0x000023ab      0x264 control.o
+ .debug_abbrev  0x0000260f       0xc5 light.o
+ .debug_abbrev  0x000026d4      0x159 accounting.o
+
+.debug_line     0x00000000     0x469d
+ *(.debug_line)
+ .debug_line    0x00000000      0x19d main.o
+ .debug_line    0x0000019d      0x13f system_clock.o
+ .debug_line    0x000002dc      0x317 common.o
+ .debug_line    0x000005f3      0x49b systimer.o
+ .debug_line    0x00000a8e      0x1d3 sdram.o
+ .debug_line    0x00000c61      0x20a memtransfer.o
+ .debug_line    0x00000e6b      0x4e1 hardware.o
+ .debug_line    0x0000134c      0x2eb ringBuffer.o
+ .debug_line    0x00001637      0x7d8 uart.o
+ .debug_line    0x00001e0f      0x12e uart_mgmt.o
+ .debug_line    0x00001f3d      0x543 communication.o
+ .debug_line    0x00002480       0x8a crc.o
+ .debug_line    0x0000250a       0x5b globals.o
+ .debug_line    0x00002565      0x1a8 aes.o
+ .debug_line    0x0000270d      0x663 coap.o
+ .debug_line    0x00002d70      0x531 coap_endpoints.o
+ .debug_line    0x000032a1      0x339 eeprom.o
+ .debug_line    0x000035da      0x20e settings.o
+ .debug_line    0x000037e8      0x172 console.o
+ .debug_line    0x0000395a       0xf2 servo.o
+ .debug_line    0x00003a4c      0x182 rtc.o
+ .debug_line    0x00003bce      0x1c8 distance.o
+ .debug_line    0x00003d96      0x544 control.o
+ .debug_line    0x000042da      0x161 light.o
+ .debug_line    0x0000443b      0x262 accounting.o
+
+.debug_frame    0x00000000      0xbe0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 main.o
+ .debug_frame   0x00000040       0x20 system_clock.o
+ .debug_frame   0x00000060       0x70 common.o
+ .debug_frame   0x000000d0      0x110 systimer.o
+ .debug_frame   0x000001e0       0x30 sdram.o
+ .debug_frame   0x00000210       0x70 memtransfer.o
+ .debug_frame   0x00000280       0xf0 hardware.o
+ .debug_frame   0x00000370       0xc0 ringBuffer.o
+ .debug_frame   0x00000430      0x160 uart.o
+ .debug_frame   0x00000590       0x50 uart_mgmt.o
+ .debug_frame   0x000005e0       0x80 communication.o
+ .debug_frame   0x00000660       0x20 crc.o
+ .debug_frame   0x00000680       0x20 aes.o
+ .debug_frame   0x000006a0       0xd0 coap.o
+ .debug_frame   0x00000770      0x100 coap_endpoints.o
+ .debug_frame   0x00000870       0xa0 eeprom.o
+ .debug_frame   0x00000910       0x50 settings.o
+ .debug_frame   0x00000960       0x30 console.o
+ .debug_frame   0x00000990       0x30 servo.o
+ .debug_frame   0x000009c0       0x50 rtc.o
+ .debug_frame   0x00000a10       0x50 distance.o
+ .debug_frame   0x00000a60       0xc0 control.o
+ .debug_frame   0x00000b20       0x40 light.o
+ .debug_frame   0x00000b60       0x80 accounting.o
+
+.debug_str      0x00000000     0x3dda
+ *(.debug_str)
+ .debug_str     0x00000000      0x784 main.o
+                                0x7e0 (size before relaxing)
+ .debug_str     0x00000784      0x19b system_clock.o
+                                0x4d5 (size before relaxing)
+ .debug_str     0x0000091f       0xb1 common.o
+                                0x170 (size before relaxing)
+ .debug_str     0x000009d0      0x462 systimer.o
+                                0xab1 (size before relaxing)
+ .debug_str     0x00000e32      0x884 sdram.o
+                                0xbf6 (size before relaxing)
+ .debug_str     0x000016b6      0x362 memtransfer.o
+                                0x4bb (size before relaxing)
+ .debug_str     0x00001a18      0x265 hardware.o
+                                0x6e6 (size before relaxing)
+ .debug_str     0x00001c7d       0xa1 ringBuffer.o
+                                0x1b2 (size before relaxing)
+ .debug_str     0x00001d1e      0x5d8 uart.o
+                                0xad7 (size before relaxing)
+ .debug_str     0x000022f6       0x67 uart_mgmt.o
+                                0x517 (size before relaxing)
+ .debug_str     0x0000235d      0x252 communication.o
+                                0x70a (size before relaxing)
+ .debug_str     0x000025af       0x18 crc.o
+                                 0x79 (size before relaxing)
+ .debug_str     0x000025c7        0xd globals.o
+                                 0x97 (size before relaxing)
+ .debug_str     0x000025d4       0x31 aes.o
+                                0x427 (size before relaxing)
+ .debug_str     0x00002605      0x6d8 coap.o
+                                0xa6a (size before relaxing)
+ .debug_str     0x00002cdd      0x1fc coap_endpoints.o
+                                0xa04 (size before relaxing)
+ .debug_str     0x00002ed9      0x466 eeprom.o
+                                0x81d (size before relaxing)
+ .debug_str     0x0000333f       0xe8 settings.o
+                                0x4ad (size before relaxing)
+ .debug_str     0x00003427       0x6c console.o
+                                0x4fd (size before relaxing)
+ .debug_str     0x00003493       0x52 servo.o
+                                0x575 (size before relaxing)
+ .debug_str     0x000034e5      0x205 rtc.o
+                                0x5b4 (size before relaxing)
+ .debug_str     0x000036ea      0x2d6 distance.o
+                                0xa7f (size before relaxing)
+ .debug_str     0x000039c0      0x29d control.o
+                                0x8ed (size before relaxing)
+ .debug_str     0x00003c5d       0x5e light.o
+                                0x3fe (size before relaxing)
+ .debug_str     0x00003cbb      0x11f accounting.o
+                                0x20f (size before relaxing)
+
+.debug_loc      0x00000000     0x4286
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x18 main.o
+ .debug_loc     0x00000018       0x1e system_clock.o
+ .debug_loc     0x00000036      0x310 common.o
+ .debug_loc     0x00000346      0x2a7 systimer.o
+ .debug_loc     0x000005ed       0x69 sdram.o
+ .debug_loc     0x00000656       0xba memtransfer.o
+ .debug_loc     0x00000710      0x356 hardware.o
+ .debug_loc     0x00000a66      0x2c7 ringBuffer.o
+ .debug_loc     0x00000d2d      0xb55 uart.o
+ .debug_loc     0x00001882       0x18 uart_mgmt.o
+ .debug_loc     0x0000189a      0x5be communication.o
+ .debug_loc     0x00001e58       0x28 crc.o
+ .debug_loc     0x00001e80      0x12e aes.o
+ .debug_loc     0x00001fae      0xba4 coap.o
+ .debug_loc     0x00002b52      0xb6b coap_endpoints.o
+ .debug_loc     0x000036bd      0x307 eeprom.o
+ .debug_loc     0x000039c4      0x3b7 settings.o
+ .debug_loc     0x00003d7b       0x7b servo.o
+ .debug_loc     0x00003df6       0x78 rtc.o
+ .debug_loc     0x00003e6e      0x134 distance.o
+ .debug_loc     0x00003fa2      0x12c control.o
+ .debug_loc     0x000040ce       0x41 light.o
+ .debug_loc     0x0000410f      0x177 accounting.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+Address of section EXTRAM set to 0x804000
+                0x000000b8                __BUILD_NUMBER = 0xb8
+LOAD main.o
+LOAD system_clock.o
+LOAD common.o
+LOAD systimer.o
+LOAD sdram.o
+LOAD memtransfer.o
+LOAD hardware.o
+LOAD ringBuffer.o
+LOAD uart.o
+LOAD uart_mgmt.o
+LOAD communication.o
+LOAD crc.o
+LOAD globals.o
+LOAD aes.o
+LOAD coap.o
+LOAD coap_endpoints.o
+LOAD eeprom.o
+LOAD settings.o
+LOAD console.o
+LOAD servo.o
+LOAD rtc.o
+LOAD distance.o
+LOAD control.o
+LOAD light.o
+LOAD accounting.o
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avrxmega7\libc.a
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/avrxmega7\libgcc.a
+OUTPUT(iPark.elf elf32-avr)
+LOAD linker stubs
+
+EXTRAM          0x00804000        0x0
+
+.debug_ranges   0x00000000      0x120
+ .debug_ranges  0x00000000       0x90 common.o
+ .debug_ranges  0x00000090       0x30 memtransfer.o
+ .debug_ranges  0x000000c0       0x60 uart.o

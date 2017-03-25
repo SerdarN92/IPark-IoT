@@ -1,0 +1,97 @@
+\hypertarget{struct_s_e_t_t_i_n_g__t}{}\section{S\+E\+T\+T\+I\+N\+G\+\_\+t Struct Reference}
+\label{struct_s_e_t_t_i_n_g__t}\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+
+
+Internal structure to store settings.  
+
+
+
+
+{\ttfamily \#include $<$settings.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned long \hyperlink{struct_s_e_t_t_i_n_g__t_aff8093810fd27a53fc13f58c12d5822e}{network\+Address}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_ab4d6d53b3f3d6e15cbc895048c8a0be8}{major\+Version}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_a1a92b6a7e593b2cc33170738ce922bb4}{minor\+Version}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_af3d9265da105cdb5ac5f2544580aee19}{revision}
+\item 
+unsigned short int \hyperlink{struct_s_e_t_t_i_n_g__t_a41c4ce6120b5d5cad4345ea11c7fb9f8}{setting\+\_\+struct\+Len}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_ac1df118970505d5f9f159dcc16ed40c6}{modified}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_a16c8844dfc94f0dd9c95bf20a2478cc2}{pre\+Shared\+Key} \mbox{[}16\mbox{]}
+\item 
+unsigned char \hyperlink{struct_s_e_t_t_i_n_g__t_a98f0d57250f6021260d0bb5fe0e07251}{max\+Known\+Sequence} \mbox{[}6\mbox{]}
+\item 
+unsigned int \hyperlink{struct_s_e_t_t_i_n_g__t_aa208bfad15c69125ef6c22648bd90172}{crc16}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal structure to store settings. 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_aa208bfad15c69125ef6c22648bd90172}\label{struct_s_e_t_t_i_n_g__t_aa208bfad15c69125ef6c22648bd90172}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!crc16@{crc16}}
+\index{crc16@{crc16}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{crc16}{crc16}}
+{\footnotesize\ttfamily unsigned int crc16}
+
+C\+RC of settings in E\+E\+P\+R\+OM \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_ab4d6d53b3f3d6e15cbc895048c8a0be8}\label{struct_s_e_t_t_i_n_g__t_ab4d6d53b3f3d6e15cbc895048c8a0be8}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!major\+Version@{major\+Version}}
+\index{major\+Version@{major\+Version}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{major\+Version}{majorVersion}}
+{\footnotesize\ttfamily unsigned char major\+Version}
+
+Major version \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_a98f0d57250f6021260d0bb5fe0e07251}\label{struct_s_e_t_t_i_n_g__t_a98f0d57250f6021260d0bb5fe0e07251}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!max\+Known\+Sequence@{max\+Known\+Sequence}}
+\index{max\+Known\+Sequence@{max\+Known\+Sequence}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{max\+Known\+Sequence}{maxKnownSequence}}
+{\footnotesize\ttfamily unsigned char max\+Known\+Sequence\mbox{[}6\mbox{]}}
+
+Maximum sequence number known. Sequence number space will be depleted after $\sim$ 30991 years! (20 Byte/\+Message @ 5760 Byte/\+Sec w/ 6 byte Seq\+Num space) \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_a1a92b6a7e593b2cc33170738ce922bb4}\label{struct_s_e_t_t_i_n_g__t_a1a92b6a7e593b2cc33170738ce922bb4}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!minor\+Version@{minor\+Version}}
+\index{minor\+Version@{minor\+Version}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{minor\+Version}{minorVersion}}
+{\footnotesize\ttfamily unsigned char minor\+Version}
+
+Minor version \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_ac1df118970505d5f9f159dcc16ed40c6}\label{struct_s_e_t_t_i_n_g__t_ac1df118970505d5f9f159dcc16ed40c6}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!modified@{modified}}
+\index{modified@{modified}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{modified}{modified}}
+{\footnotesize\ttfamily unsigned char modified}
+
+Have the settings been modified? \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_aff8093810fd27a53fc13f58c12d5822e}\label{struct_s_e_t_t_i_n_g__t_aff8093810fd27a53fc13f58c12d5822e}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!network\+Address@{network\+Address}}
+\index{network\+Address@{network\+Address}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{network\+Address}{networkAddress}}
+{\footnotesize\ttfamily unsigned long network\+Address}
+
+Network address \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_a16c8844dfc94f0dd9c95bf20a2478cc2}\label{struct_s_e_t_t_i_n_g__t_a16c8844dfc94f0dd9c95bf20a2478cc2}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!pre\+Shared\+Key@{pre\+Shared\+Key}}
+\index{pre\+Shared\+Key@{pre\+Shared\+Key}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{pre\+Shared\+Key}{preSharedKey}}
+{\footnotesize\ttfamily unsigned char pre\+Shared\+Key\mbox{[}16\mbox{]}}
+
+Pre shared key \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_af3d9265da105cdb5ac5f2544580aee19}\label{struct_s_e_t_t_i_n_g__t_af3d9265da105cdb5ac5f2544580aee19}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!revision@{revision}}
+\index{revision@{revision}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{revision}{revision}}
+{\footnotesize\ttfamily unsigned char revision}
+
+Revision \mbox{\Hypertarget{struct_s_e_t_t_i_n_g__t_a41c4ce6120b5d5cad4345ea11c7fb9f8}\label{struct_s_e_t_t_i_n_g__t_a41c4ce6120b5d5cad4345ea11c7fb9f8}} 
+\index{S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}!setting\+\_\+struct\+Len@{setting\+\_\+struct\+Len}}
+\index{setting\+\_\+struct\+Len@{setting\+\_\+struct\+Len}!S\+E\+T\+T\+I\+N\+G\+\_\+t@{S\+E\+T\+T\+I\+N\+G\+\_\+t}}
+\subsubsection{\texorpdfstring{setting\+\_\+struct\+Len}{setting\_structLen}}
+{\footnotesize\ttfamily unsigned short int setting\+\_\+struct\+Len}
+
+Internal length 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Desktop/\+Uni/\+Master/2. Semester/\+I\+Park/\+Io\+T/settings.\+h\end{DoxyCompactItemize}
